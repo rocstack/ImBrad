@@ -1,0 +1,15 @@
+version: '3.7'
+
+services: 
+
+  imbrad:
+    build: .
+    container_name: imbrad
+    ports:
+      - 8081:80
+    networks:
+      - system-network
+
+networks:
+  system-network:
+    name: system-network
