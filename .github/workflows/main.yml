@@ -20,9 +20,5 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
         script: |
-          cd Nginx-Proxy/ImBrad
-          echo 'Server pulling latest changes from Git Repo...'
-          git pull origin master
-          cd ..
-          echo 'Rebuilding docker image...'
-          docker-compose up --detach --build
+          cd Nginx-Proxy
+          ls -a
