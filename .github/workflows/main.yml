@@ -20,5 +20,5 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
         script: |
-          cd ..
+          cd /home/user/Nginx-Proxy/ImBrad
           ls -a
