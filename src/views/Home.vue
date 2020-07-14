@@ -22,9 +22,9 @@
     <p>You can see some of my work below (TBA):</p>
 
     <div class="my-work-container">
-      <div class="my-work-item">1</div>
-      <div class="my-work-item">2</div>
-      <div class="my-work-item">3</div>
+      <div class="my-work-item">CRM Frontend</div>
+      <div class="my-work-item">CRM API</div>
+      <div class="my-work-item">Project Boxing</div>
       <div class="my-work-item">4</div>
       <div class="my-work-item">5</div>
       <div class="my-work-item">6</div>
@@ -32,7 +32,7 @@
       <div class="my-work-item">8</div>
       <div class="my-work-item">9</div>
     </div>
-    
+
   </div>
 </template>
 
