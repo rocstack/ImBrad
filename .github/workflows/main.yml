@@ -16,13 +16,13 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USERNAME }}
+        username: root
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
         script: |
           cd Nginx-Proxy/ImBrad
           echo 'Server pulling latest changes from Git Repo...'
-          sudo git pull origin master
+          git pull origin master
           cd ..
           echo 'Rebuilding docker image...'
-          sudo docker-compose up --detach --build
+          docker-compose up --detach --build
