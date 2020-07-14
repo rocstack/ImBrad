@@ -21,4 +21,9 @@ jobs:
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
         script: |
           cd /home/user/Nginx-Proxy/ImBrad
-          ls -a
+          echo 'Server pulling latest changes from Git Repo...'
+          git pull origin master
+          cd ..
+          echo 'Rebuilding docker image...'
+          docker-compose up --detach --build
+
