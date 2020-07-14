@@ -1,4 +1,3 @@
-
 name: Deploy on push to master
 
 on:
@@ -12,13 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: executing remote ssh commands using password
+    - name: Update the live server web image
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
         username: root
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
+        # Connect to server, navigate to project, pull from github and rebuild image
         script: |
           cd /home/user/Nginx-Proxy/ImBrad
           echo 'Server pulling latest changes from Git Repo...'
