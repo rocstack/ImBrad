@@ -27,4 +27,4 @@ jobs:
         script: |
           cd /home/user/Nginx-Proxy
           echo 'Rebuilding docker image...'
-          docker-compose up imbrad
+          docker-compose up imbrad -d
