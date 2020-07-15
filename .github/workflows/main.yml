@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: 'Checkout Repositry'
+    - name: Checkout Repositry
       uses: actions/checkout@v2
     - name: Build docker image
       uses: docker/build-push-action@v1
