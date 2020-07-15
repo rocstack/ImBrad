@@ -19,19 +19,15 @@ jobs:
         repository: rocstack/imbrad
         tags: latest
 
-    - name: Update the live server web image
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: root
-        key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
-        # Connect to server, navigate to project, pull from github and rebuild image
-        script: |
-          cd /home/user/Nginx-Proxy/ImBrad
-          echo 'Server pulling latest changes from Git Repo...'
-          git pull origin master
-          cd ..
-          echo 'Rebuilding docker image...'
-          docker-compose up --detach --build
-
+    # - name: Update the live server web image
+    #   uses: appleboy/ssh-action@master
+    #   with:
+    #     host: ${{ secrets.SSH_HOST }}
+    #     username: root
+    #     key: ${{ secrets.SSH_KEY }}
+    #     passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
+    #     # Connect to server, navigate to project, pull from github and rebuild image
+    #     script: |
+    #       cd /home/user/Nginx-Proxy
+    #       echo 'Rebuilding docker image...'
+    #       docker-compose up --detach --build
