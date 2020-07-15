@@ -28,9 +28,9 @@
       <div class="my-work-item">Torch System</div>
       <div class="my-work-item">Trintiy</div>
       <div class="my-work-item">Buzz</div>
-      <div class="my-work-item">7</div>
-      <div class="my-work-item">8</div>
-      <div class="my-work-item">9</div>
+      <div class="my-work-item">asd</div>
+      <div class="my-work-item">asd</div>
+      <div class="my-work-item">asd</div>
     </div>
 
   </div>

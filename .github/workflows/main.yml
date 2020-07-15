@@ -16,7 +16,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: rocstack/imbrad
-        tags: latest
+        # tags: latest
     - name: Update the live server web image
       uses: appleboy/ssh-action@master
       with:
@@ -24,8 +24,7 @@ jobs:
         username: root
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}  
-        # Connect to server, navigate to project, pull from github and rebuild image
         script: |
           cd /home/user/Nginx-Proxy
           echo 'Rebuilding docker image...'
-          docker-compose up --detach --build
+          docker-compose up imbrad
