@@ -25,9 +25,9 @@
       <div class="my-work-item">CRM Frontend</div>
       <div class="my-work-item">CRM API</div>
       <div class="my-work-item">Project Boxing</div>
-      <div class="my-work-item">4</div>
-      <div class="my-work-item">5</div>
-      <div class="my-work-item">6</div>
+      <div class="my-work-item">Torch System</div>
+      <div class="my-work-item">Trintiy</div>
+      <div class="my-work-item">Buzz</div>
       <div class="my-work-item">7</div>
       <div class="my-work-item">8</div>
       <div class="my-work-item">9</div>
