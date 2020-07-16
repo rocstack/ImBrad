@@ -2,28 +2,10 @@
 
 Just a repositry for my personal profile page
 
-## Project setup
+### Website Location
 
-``` javascript
-npm install
 ```
-
-### Compiles and hot-reloads for development
-
-``` javascript
-npm run serve
-```
-
-### Compiles and minifies for production
-
-``` javascript
-npm run build
-```
-
-### Lints and fixes files
-
-``` javascript
-npm run lint
+imbrad.dev
 ```
 
 ### Docker Setup
