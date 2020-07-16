@@ -22,15 +22,14 @@
     <p>You can see some of my work below (TBA):</p>
 
     <div class="my-work-container">
-      <div class="my-work-item">CRM Frontend</div>
+      <div class="my-work-item">
+        <h4>Torch CRM</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
+      </div>
+
       <div class="my-work-item">CRM API</div>
+
       <div class="my-work-item">Project Boxing</div>
-      <div class="my-work-item">Torch System</div>
-      <div class="my-work-item">Trintiy</div>
-      <div class="my-work-item">Buzz</div>
-      <div class="my-work-item">RagdollMan</div>
-      <div class="my-work-item">InsAPI</div>
-      <div class="my-work-item">-</div>
     </div>
 
   </div>
