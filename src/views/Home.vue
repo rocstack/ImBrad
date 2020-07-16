@@ -27,9 +27,15 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
       </div>
 
-      <div class="my-work-item">CRM API</div>
+      <div class="my-work-item">
+        <h4>Project Boxing</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
+      </div>
 
-      <div class="my-work-item">Project Boxing</div>
+      <div class="my-work-item">
+        <h4>Buzz</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
+      </div>
     </div>
 
   </div>
@@ -62,7 +68,6 @@ a {
 .my-work-item {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
   text-align: center;
 }
 </style>
