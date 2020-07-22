@@ -24,17 +24,17 @@
     <div class="my-work-container">
       <div class="my-work-item">
         <h4>Torch CRM</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
+        <p>This is a CRM/Business space web app for managing business relations (employees, companies), creating tasks and deloying code to servers.</p>
       </div>
 
       <div class="my-work-item">
         <h4>Project Boxing</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
+        <p>A boxing simulation game built in Unity3D and scripting in C#. This game has been accepted by steam marketplace.</p>
       </div>
 
       <div class="my-work-item">
-        <h4>Buzz</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione.</p>
+        <h4>Torchl (torchl.com)</h4>
+        <p>A website creation tool for simplifying making a website and hosting it.</p>
       </div>
     </div>
 
